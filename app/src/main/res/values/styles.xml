@@ -1,61 +1,129 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
         <item name="colorAccent">@color/color_accent</item>
-
     </style>
 
-    <style name="icon">
-        <item name="android:layout_width">@dimen/size_small_24</item>
-        <item name="android:layout_height">@dimen/size_small_24</item>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="icon.left" parent="icon">
-        <item name="android:gravity">top|left</item>
-        <item name="android:layout_marginTop">@dimen/spacing_medial_24</item>
-        <item name="android:layout_marginLeft">@dimen/spacing_normal_16</item>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
-    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
-    <style name="icon.right" parent="icon">
-        <item name="android:gravity">top|right</item>
-        <item name="android:layout_marginTop">@dimen/spacing_medial_24</item>
-        <item name="android:layout_marginRight">@dimen/spacing_medium_32</item>
-
-    </style>
-
-    <style name="edit">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:enabled">true</item>
-        <item name="android:focusable">false</item>
-        <item name="android:fontFamily">sans-serif-condensed</item>
-        <item name="android:textColor">@color/color_black</item>
-        <item name="android:textColorHint">@color/color_gray</item>
-    </style>
-
-    <style name="container">
+    <!-- Styles for scoreBox layout -->
+    <style name="scoreBox_sectionLayout">
         <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">72dp</item>
-        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center</item>
         <item name="android:orientation">vertical</item>
     </style>
 
-    <style name="text">
-        <item name="android:layout_width">wrap_content</item>
+    <style name="scoreBox_text">
+        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@color/color_white</item>
         <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">@dimen/font_normal_16</item>
     </style>
 
-    <style name="text.title" parent="text">
-        <item name="android:textSize">20sp</item>
-        <item name="android:textStyle">bold</item>
+    <style name="scoreBox_text.count" parent="scoreBox_text">
+        <item name="android:textSize">@dimen/font_medium_24</item>
     </style>
 
+    <style name="scoreBox_lineSeparator">
+        <item name="android:layout_width">@dimen/line_size</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/color_gray_light</item>
+    </style>
+
+    <!-- Styles for profile info layouts which contain info like mobile phone, email and etc -->
+    <style name="profileItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">@dimen/spacing_small_8</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_small_8</item>
+    </style>
+
+    <style name="profileItem_icon">
+        <item name="android:layout_width">@dimen/size_small_24</item>
+        <item name="android:layout_height">@dimen/size_small_24</item>
+    </style>
+
+    <style name="profileItem_icon.left" parent="profileItem_icon">
+        <item name="android:layout_gravity">top|left</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_normal_16</item>
+        <item name="android:layout_marginTop">@dimen/spacing_medial_24</item>
+    </style>
+
+    <style name="profileItem_icon.right" parent="profileItem_icon">
+        <item name="android:layout_gravity">top|right</item>
+        <item name="android:layout_marginRight">@dimen/spacing_medium_32</item>
+        <item name="android:layout_marginTop">@dimen/spacing_medial_24</item>
+    </style>
+
+    <style name="profileItem_infoBox">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/size_large_72</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_medium_32</item>
+        <item name="android:layout_marginRight">@dimen/spacing_normal_16</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="profileItem_editText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textColorHint">@color/color_gray</item>
+        <item name="android:enabled">false</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="profileItem_lineSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_size</item>
+        <item name="android:background">@color/color_gray_light</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_larger_72</item>
+    </style>
+
+    <!-- ProgressBar -->
+    <style name="custom_dialog">
+        <item name="android:fullDark">@android:color/transparent</item>
+    </style>
+
+    <!-- Navigation View -->
+    <style name="navView_Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_normal_14</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="navView_Text.header_Name" parent="navView_Text">
+        <item name="android:textColor">@color/color_white</item>
+    </style>
+
+    <style name="navView_Text.header_Email" parent="navView_Text">
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+
+    <style name="navView_Text.list" parent="navView_Text">
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <style name="navView_Text.subHeader" parent="navView_Text">
+        <item name="android:textColor">@color/color_gray</item>
+    </style>
 </resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/user_profile_menu"
+            android:checkable="true"
+            android:icon="@drawable/ic_account_circle_black_24dp1"
+            android:title="@string/menu_myProfile_txt"/>
+        <item
+            android:id="@+id/team_menu"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="@string/menu_myTeam_txt"/>
+        <item
+            android:id="@+id/contacts_menu"
+            android:icon="@drawable/ic_perm_phone_msg_black_24dp"
+            android:title="@string/menu_myContacts_txt"/>
+        <item
+            android:id="@+id/tasks_menu"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="@string/menu_myTasks_txt"/>
+        <item
+            android:id="@+id/notifications_menu"
+            android:icon="@drawable/ic_notifications_active_black_24dp"
+            android:title="@string/menu_myNotifications_txt"/>
+        <item
+            android:id="@+id/bookmarks_menu"
+            android:icon="@drawable/ic_loyalty_black_24dp"
+            android:title="@string/menu_myBookmarks_txt"/>
+    </group>
+</menu>
