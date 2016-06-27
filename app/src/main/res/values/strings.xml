@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">DevIntensive</string>
+    <string name="app_name">Рудай Наталья</string>
+    <string name="hint_phone">Мобильный телефон</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_github">Репозиторий</string>
+    <string name="hint_vk">Профиль в vk</string>
+    <string name="hint_about_me">О себе</string>
+    <string name="text_phone">+7(123)123-12-12</string>
+    <string name="text_email">123@gmail.com</string>
+    <string name="text_github">https://github.com/NataliaRu</string>
+    <string name="text_vk">vk.com/id123123</string>
+    <string name="text_about_me">Немного информации обо мне</string>
 </resources>
