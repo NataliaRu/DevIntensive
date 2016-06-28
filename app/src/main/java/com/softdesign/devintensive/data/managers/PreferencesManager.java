@@ -14,7 +14,7 @@ public class PreferencesManager {
 
     private SharedPreferences mSharedPreferences;
     public static final String[] USER_FIELDS = {ConstantManager.USER_PHONE_KEY, ConstantManager.USER_EMAIL_KEY, ConstantManager.USER_VK_KEY, ConstantManager.USER_GITHUB_KEY, ConstantManager.USER_ABOUT_KEY};
-
+//
     public PreferencesManager() {
         mSharedPreferences = DevIntensiveApplication.getSharedPreferences();
     }
@@ -29,6 +29,7 @@ public class PreferencesManager {
     }
 
     public List<String> loadUserProfileData (){
+
         List<String> userFields = new ArrayList<>();
         List<String> defaultUserData = new ArrayList<>();
         defaultUserData.add(DevIntensiveApplication.getContext().getResources().getString(R.string.profile_user_phone));

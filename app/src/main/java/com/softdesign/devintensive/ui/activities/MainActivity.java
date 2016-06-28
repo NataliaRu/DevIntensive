@@ -23,7 +23,6 @@ import android.widget.TextView;
 import com.softdesign.devintensive.R;
 import com.softdesign.devintensive.data.managers.DataManager;
 import com.softdesign.devintensive.utils.ConstantManager;
-import com.softdesign.devintensive.utils.PhoneNumberTextWatcher;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -76,7 +75,6 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         Collections.addAll(mUserInfo, mUserPhone, mUserEmail,
                 mUserVk, mUserGit, mUserBio);
 
-        mUserPhone.addTextChangedListener(new PhoneNumberTextWatcher(mUserPhone));
         mFab.setOnClickListener(this);
         setupToolbar();
         setupDrawer();
