@@ -5,7 +5,7 @@
     <string name="profile_email_hint">E-mail</string>
     <string name="profile_user_email">123@gmail.com</string>
     <string name="profile_user_vk">vk.com/id123123</string>
-    <string name="profile_vk_hint">Профиль в VK</string>
+    <string name="profile_vk_hint">Профиль VK</string>
     <string name="profile_gitHub_hint">Репозиторий</string>
     <string name="profile_user_gitHub">github.com/Example/ExampleRepo</string>
     <string name="profile_user_about">Какая-то краткая никому неинтересня информация</string>
@@ -13,7 +13,7 @@
     <string name="scoreBox_ratingText">Рейтинг</string>
     <string name="scoreBox_ratingCount">-</string>
     <string name="scoreBox_codeCount">555</string>
-    <string name="scoreBox_codeText">Написано строк кода</string>
+    <string name="scoreBox_codeText">Строчек кода</string>
     <string name="scoreBox_projectsCount">1</string>
     <string name="scoreBox_projectsText">Проектов</string>
     <string name="menu_myProfile_txt">Профиль</string>

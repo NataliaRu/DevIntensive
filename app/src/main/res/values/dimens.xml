@@ -26,7 +26,7 @@
     <dimen name="size_large_92">92dp</dimen>
     <dimen name="size_larger_104">104dp</dimen>
 
-    <!-- Spaces -->
+    <!-- Spacing -->
 
     <dimen name="spacing_little_4">4dp</dimen>
     <dimen name="spacing_small_8">8dp</dimen>

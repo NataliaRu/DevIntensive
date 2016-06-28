@@ -27,5 +27,4 @@
             android:icon="@drawable/ic_loyalty_black_24dp"
             android:title="@string/menu_myBookmarks_txt"/>
     </group>
-    <!-- -->
 </menu>

@@ -14,7 +14,6 @@ public class PreferencesManager {
 
     private SharedPreferences mSharedPreferences;
     public static final String[] USER_FIELDS = {ConstantManager.USER_PHONE_KEY, ConstantManager.USER_EMAIL_KEY, ConstantManager.USER_VK_KEY, ConstantManager.USER_GITHUB_KEY, ConstantManager.USER_ABOUT_KEY};
-//
     public PreferencesManager() {
         mSharedPreferences = DevIntensiveApplication.getSharedPreferences();
     }
