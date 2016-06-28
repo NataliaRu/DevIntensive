@@ -1,6 +1,6 @@
 package com.softdesign.devintensive.data.managers;
 
-
+//
 import android.content.SharedPreferences;
 
 import com.softdesign.devintensive.R;

@@ -7,7 +7,7 @@
     <string name="profile_user_vk">vk.com/id123123</string>
     <string name="profile_vk_hint">Профиль VK</string>
     <string name="profile_gitHub_hint">Репозиторий</string>
-    <string name="profile_user_gitHub">github.com/Example/ExampleRepo</string>
+    <string name="profile_user_gitHub">github.com/Example/Exam</string>
     <string name="profile_user_about">Какая-то краткая никому неинтересня информация</string>
     <string name="profile_user_about_hint">О себе</string>
     <string name="scoreBox_ratingText">Рейтинг</string>

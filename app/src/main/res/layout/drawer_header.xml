@@ -33,5 +33,5 @@
             style="@style/navView_Text.header_Email"
             android:text="@string/profile_user_email"/>
     </LinearLayout>
-
+<!-- -->
 </RelativeLayout>
